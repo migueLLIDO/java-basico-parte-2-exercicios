@@ -1,0 +1,1 @@
+public class Exercicio36 { static double calcularFrete(double km){return km*1.5;} static double calcularFrete(double km,boolean expresso){return calcularFrete(km)+(expresso?12:0);} public static void main(String[] args){System.out.printf("Normal %.2f; expresso %.2f%n",calcularFrete(10),calcularFrete(10,true));}}

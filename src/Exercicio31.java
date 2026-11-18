@@ -1,0 +1,1 @@
+public class Exercicio31 { public static void main(String[] args){double[] vendas={700,1200,850,1500};for(double v:vendas)if(v>1000){System.out.printf("Primeira venda acima da meta: R$ %.2f%n",v);break;}}}

@@ -1,0 +1,1 @@
+public class Exercicio34 { static int buscarIndice(String[] p,String alvo){for(int i=0;i<p.length;i++)if(p[i].equalsIgnoreCase(alvo))return i;return -1;} public static void main(String[] args){String[] produtos={"Café","Arroz","Leite"};System.out.println(buscarIndice(produtos,"Arroz"));System.out.println(buscarIndice(produtos,"Açúcar"));}}

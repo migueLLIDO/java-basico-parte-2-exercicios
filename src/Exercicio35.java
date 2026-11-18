@@ -1,0 +1,1 @@
+public class Exercicio35 { static double calcularMedia(double[] n){double s=0;for(double x:n)s+=x;return s/n.length;} static boolean aprovado(double m){return m>=7;} public static void main(String[] args){double m=calcularMedia(new double[]{8,7,9});System.out.printf("Média %.2f - %s%n",m,aprovado(m)?"Aprovado":"Reprovado");}}

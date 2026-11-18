@@ -1,0 +1,1 @@
+public class Exercicio37 { static boolean validarLogin(String usuario,String senha,boolean ativo){return usuario!=null&&!usuario.isBlank()&&"java123".equals(senha)&&ativo;} public static void main(String[] args){System.out.println(validarLogin("ana","java123",true));System.out.println(validarLogin("ana","errada",true));}}

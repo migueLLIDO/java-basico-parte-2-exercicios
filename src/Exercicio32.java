@@ -1,0 +1,1 @@
+public class Exercicio32 { public static void main(String[] args){double[] transacoes={100,-3,45,0,120};double total=0;int qtd=0;for(double v:transacoes){if(v<=0)continue;total+=v;qtd++;}System.out.printf("Total válido %.2f; quantidade %d%n",total,qtd);}}

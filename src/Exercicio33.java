@@ -1,0 +1,1 @@
+public class Exercicio33 { public static void main(String[] args){String[] produtos={"Arroz","Feijão","Café"};int[] estoque={3,12,4};for(int i=0;i<produtos.length;i++)System.out.printf("%s: %s%n",produtos[i],estoque[i]<5?"REPOSIÇÃO":"OK");}}
