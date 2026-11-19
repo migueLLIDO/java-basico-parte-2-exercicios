@@ -1,14 +1,12 @@
-# Java Básico - Parte 2
+# Java Básico - Parte 2 (20 exercícios)
 
-Lista completa de 50 exercícios sobre break/continue, arrays, métodos, parâmetros, retorno, sobrecarga, escopo e recursão.
+Seleção dos dois últimos blocos de dificuldade da lista: exercícios 31–40 (intermediário simples) e 41–50 (intermediário, o nível mais alto disponível nesta apostila). Esta Parte 2 não traz uma categoria intitulada “Avançado”; por isso, 41–50 são a seleção dos 10 mais avançados disponíveis.
 
 ## Execução
 
-Requer JDK 17+. Compile e execute a classe desejada:
+Requer JDK 17 ou superior. Compile e execute a classe desejada:
 
 ```powershell
 javac -encoding UTF-8 -d out src/*.java
-java -cp out NomeDaClasse
+java -cp out Exercicio41
 ```
-
-Cada exercício fica em uma classe independente dentro de `src/`.
